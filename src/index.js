@@ -1,10 +1,10 @@
 // computes a factorial of a given positive integer
 // version 1 -> 2 -> 3
 function factorial(n) { // -> 5!
-//d
-    if( n < 0 ) {
-        throw new Error('n must be a positive integer');
-    }
+
+    // if( n < 0 ) {
+    //     throw new Error('n must be a positive integer');
+    // }
 
 
     if( n === 0 ) {
